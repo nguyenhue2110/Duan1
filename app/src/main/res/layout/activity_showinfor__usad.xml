@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#F1F1F1"
+tools:context=".activityadmin.Showinfor_UsadActivity">
+<ImageView
+    android:id="@+id/nentren"
+    android:layout_width="match_parent"
+    android:layout_height="274dp"
+    android:layout_marginTop="-50dp"
+    android:src="@drawable/food"></ImageView>
+
+<ImageView
+    android:id="@+id/nentren1"
+    android:layout_width="match_parent"
+    android:layout_height="248dp"
+    android:layout_marginTop="-12dp"
+    android:src="@drawable/nentren"></ImageView>
+
+<ImageView
+    android:id="@+id/nenduoi"
+    android:layout_width="match_parent"
+    android:layout_height="531dp"
+    android:layout_marginTop="230dp"
+    android:src="@drawable/nen_duoi"></ImageView>
+
+<ImageView
+    android:id="@+id/avatar"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="110dp"
+    android:background="@drawable/avatar"></ImageView>
+<ImageView
+    android:id="@+id/vien"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="-46dp"
+    android:layout_marginTop="-75dp"
+    android:contentDescription="TODO"
+    android:src="@drawable/logo"></ImageView>
+<ImageView
+    android:id="@+id/back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/back"
+    android:layout_marginTop="15dp"></ImageView>
+<ImageView
+    android:id="@+id/font"
+    android:layout_width="280dp"
+    android:layout_height="330dp"
+    android:layout_marginTop="20dp"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/nentren1"
+    android:background="#ffffff"/>
+<ImageButton
+    android:id="@+id/btned"
+    android:layout_width="40dp"
+    android:background="#ffffff"
+    android:src="@drawable/pen40"
+    android:layout_below="@+id/font"
+    android:layout_alignRight="@+id/font"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="80dp"
+    android:layout_height="40dp"/>
+<ImageButton
+    android:id="@+id/btncen"
+    android:layout_width="40dp"
+    android:background="#ffffff"
+    android:src="@drawable/plus40"
+    android:layout_below="@+id/font"
+    android:layout_alignLeft="@+id/font"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="80dp"
+    android:layout_height="40dp"/>
+
+<TextView
+    android:id="@+id/tvusname"
+    android:layout_width="260dp"
+    android:layout_below="@+id/nentren1"
+    android:layout_marginTop="40dp"
+    android:layout_centerHorizontal="true"
+    android:textSize="25dp"
+    android:hint="abc"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:fontFamily="@font/aldrich"
+    android:layout_height="wrap_content"/>
+<TextView
+    android:id="@+id/tvfullname"
+    android:layout_width="260dp"
+    android:layout_below="@+id/tvusname"
+    android:layout_marginTop="10dp"
+    android:layout_centerHorizontal="true"
+    android:textSize="20dp"
+    android:hint="abc"
+    android:fontFamily="@font/aldrich"
+    android:layout_height="wrap_content"/>
+<TextView
+    android:id="@+id/tvphone"
+    android:layout_width="260dp"
+    android:layout_below="@+id/tvfullname"
+    android:layout_marginTop="10dp"
+    android:layout_centerHorizontal="true"
+    android:textSize="20dp"
+    android:hint="abc"
+    android:fontFamily="@font/aldrich"
+    android:layout_height="wrap_content"/>
+<TextView
+    android:id="@+id/tvgender"
+    android:layout_width="260dp"
+    android:layout_below="@+id/tvphone"
+    android:layout_marginTop="10dp"
+    android:layout_centerHorizontal="true"
+    android:textSize="20dp"
+    android:hint="abc"
+    android:fontFamily="@font/aldrich"
+    android:layout_height="wrap_content"/>
+<TextView
+    android:id="@+id/tvrule"
+    android:layout_width="260dp"
+    android:layout_below="@+id/tvgender"
+    android:layout_marginTop="10dp"
+    android:layout_centerHorizontal="true"
+    android:textSize="20dp"
+    android:textColor="#DD0000"
+    android:hint="abc"
+    android:fontFamily="@font/aldrich"
+    android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
